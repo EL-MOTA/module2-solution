@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 5px;
+    padding: 25px;
+}
+
+#M1,
+#M2,
+#M3 {
+    text-align: center;
+}
+
+#box {
+    width: 100%;
+    display: inline-block;
+}
+
+#box1 {
+    background-color: rgb(128, 128, 128);
+    width: 30%;
+    float: left;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+#box2 {
+    background-color: rgb(128, 128, 128);
+    width: 30%;
+    float: left;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+#box3 {
+    background-color: rgb(128, 128, 128);
+    width: 30%;
+    float: left;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+#M1 {
+    background-color: pink;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    border-style: 3px solid blank;
+    float: right;
+    border: 1px solid black;
+}
+
+#M2 {
+    background-color: rgba(255, 0, 0, 0.548);
+    color: white;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border-style: 3px solid black;
+    float: right;
+    border: 1px solid black;
+}
+
+#M3 {
+    background-color: rgba(255, 255, 0, 0.589);
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border-style: 3px solid black;
+    float: right;
+    border: 1px solid black;
+}
+
+
+/****Desktop Device*****/
+
+@media(min-width: 992px) {
+    #box1,
+    #box2,
+    #box3 {
+        background-color: rgb(128, 128, 128);
+        width: 30%;
+        float: left;
+        border: 3px solid black;
+    }
+}
+
+
+/****Tablet Device*****/
+
+@media(min-width: 768px) and (max-width:991px) {
+    #box1,
+    #box2 {
+        background-color: rgb(128, 128, 128);
+        width: 25%;
+        border: 3px solid black;
+    }
+    #box3 {
+        background-color: rgb(128, 128, 128);
+        width: 50%;
+        border: 3px solid black;
+    }
+}
+
+
+/****Mobile Device*****/
+
+@media(max-width: 767px) {
+    #box1 {
+        background-color: rgb(128, 128, 128);
+        width: 100%;
+        float: left;
+        border: 3px solid black;
+        margin: 10px;
+    }
+    #box2 {
+        background-color: rgb(128, 128, 128);
+        width: 100%;
+        float: left;
+        border: 3px solid black;
+        margin: 10px;
+    }
+    #box3 {
+        background-color: rgb(128, 128, 128);
+        width: 100%;
+        float: left;
+        border: 3px solid black;
+        margin: 10px;
+    }
+}
